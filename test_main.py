@@ -24,7 +24,7 @@ async def test_home_page_has_welcome_and_checksum_form(client):
     response = await client.get("/")
 
     assert response.status_code == 200
-    assert "Welcome, Copilot!" in response.text
+    assert "Welcome, Preetesh Singha!" in response.text
     assert 'id="checksum-form"' in response.text
 
 

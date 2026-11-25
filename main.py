@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
-PARTICIPANT_NAME = "Copilot"
+PARTICIPANT_NAME = "Preetesh Singha"
 
 app = FastAPI(title="Text Checksum")
 
